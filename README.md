@@ -1,31 +1,31 @@
-#BOILERPLATE Maker for REACT/REACT-REDUX Web Apps
-NPM - https://www.npmjs.com/package/react-boilerplater
-Github - https://github.com/AliceWonderland/react-boilerplater
-By Alice Chuang 2017
+# BOILERPLATE Maker for REACT/REACT-REDUX Web Apps
+#### NPM - https://www.npmjs.com/package/react-boilerplater
+#### Github - https://github.com/AliceWonderland/react-boilerplater
+##### By Alice Chuang 2017
 
 Includes:
-Node.js
-Express
-React
-React-Redux
-Sequelize
-Postgres
-Thunk
-Web Sockets - Socket.io
-Linter
-Bootstrap
-Bluebird
-OAuth
+- Node.js
+- Express
+- React
+- React-Redux
+- Sequelize
+- Postgres
+- Thunk
+- Web Sockets - Socket.io
+- Linter
+- Bootstrap
+- Bluebird
+- OAuth
 
 Supporting Packages:
-Node.js
-NPM
-Nodemon
-Webpack
-Babel
-Mocha
-Chai
-Jasmine
+- Node.js
+- NPM
+- Nodemon
+- Webpack
+- Babel
+- Mocha
+- Chai
+- Jasmine
 
 To Create Your Own Boilerplate:
 - Create a project folder
@@ -36,4 +36,4 @@ To Create Your Own Boilerplate:
 - Install Postgres
 
 Some Helpful Links:
-Facebook's Create-React-App https://github.com/facebookincubator/create-react-app
+- Facebook's Create-React-App https://github.com/facebookincubator/create-react-app
