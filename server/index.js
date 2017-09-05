@@ -1,3 +1,4 @@
+// express routing server
 const express = require('express');
 const app = express();
 
@@ -5,9 +6,10 @@ const app = express();
 const morgan = require('morgan');
 app.use(morgan('dev'));
 
-// static middleware to /public
+// static middleware for files in /public
 const path = require('path');
-app.use(express.static(path.join(__dirname, './public')));
+app.use(express.static(path.join(__dirname, '..', '/public')));
+app.use('/bootstrap', express.static(path.join(__dirname, '..', '/node_modules/bootstrap/dist')));
 
 // parsing middleware
 const bodyParser = require('body-parser');
@@ -23,6 +25,8 @@ app.use('/api', require('./api')); // matches all requests to /api
 // The only thing after this might be a piece of middleware to serve up 500 errors for server problems
 // (However, if you have middleware to serve up 404s, that go would before this as well)
 
+// end routing
+
 // handle 404s
 app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, '../public/index.html'));
@@ -35,12 +39,11 @@ app.use(function (err, req, res, next) {
   res.status(err.status || 500).send(err.message || 'Internal server error.');
 });
 
-// end routing
-
 // start server
 const port = process.env.PORT || 3000; // this can be very useful if you deploy to Heroku!
 app.listen(port, function () {
   console.log("Knock, knock");
   console.log("Who's there?");
   console.log(`Your server, listening on port ${port}`);
+  console.log(`Browse to http://localhost:${port} to view your app`);
 });
