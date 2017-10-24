@@ -4,13 +4,19 @@
   "description": "React-Redux Boilerplate",
   "main": "app.js",
   "scripts": {
+    "build-client": "webpack",
+    "build-client-watch": "webpack -w",
+    "start-server": "NODE_ENV='development' nodemon server -e html,js,scss --ignore public",
+    "start-dev-env": "npm run build-client-watch & npm run start-server",
     "start": "node server",
     "start-dev": "webpack -w &amp; nodemon server",
+    "tmp": "to run the above use ==> npm run start-dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alice Chuang",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.16.2",
     "body-parser": "^1.17.2",
     "bootstrap": "^3.3.7",
     "express": "^4.15.4",

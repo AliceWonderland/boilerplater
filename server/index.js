@@ -1,3 +1,5 @@
+if (process.env.NODE_ENV === 'development') require('../secrets')
+
 // express routing server
 const express = require('express');
 const app = express();

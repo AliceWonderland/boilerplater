@@ -6,7 +6,8 @@ module.exports = {
   },
   devtool: 'source-map',
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    //extensions: ['', '.js', '.jsx'] //removed '', to fix wpack config error
+    extensions: ['.js', '.jsx']
   },
   module: {
     rules: [
