@@ -1,4 +1,4 @@
-# BOILERPLATE Maker for REACT/REACT-REDUX Web Apps
+# BOILERPLATE Maker for REACT-REDUX Web Apps
 #### NPM - https://www.npmjs.com/package/react-boilerplater
 #### Github - https://github.com/AliceWonderland/react-boilerplater
 ##### By Alice Chuang 2017
