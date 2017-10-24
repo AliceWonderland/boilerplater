@@ -1,3 +1,5 @@
+// NOT IN USE
+
 const router = require('express').Router();
 
 router.use('/users', require('../routes/puppies')); // matches all requests to /api/users/

@@ -7,18 +7,21 @@ import { Provider } from 'react-redux';
 import store from './client/store/';
 import './client/index.scss';
 
-console.log('Alice Test',store);
+console.log('Alice Test', store);
 
 ReactDOM.render(
-  <Provider store={store}>
-    {/* rest of your app goes here! */}
-    <Router>
-      <div className="container">
-        <h1>Hello, World!</h1>
-      </div>
-    </Router>
-  </Provider>,
-  document.getElementById('app') //the id of the div in your index.html
+
+    <Provider store={store}>
+        {/* rest of your app goes here! */}
+        <Router>
+            <div className="container">
+                <h1>Hello, World!</h1>
+            </div>
+        </Router>
+    </Provider>,
+
+    document.getElementById('app') // <== the id of the div in your index.html
+
 );
 
 //

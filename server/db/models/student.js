@@ -1,6 +1,6 @@
 'use strict';
-var Sequelize = require('sequelize')
-var db = require('../index.js')
+var Sequelize = require('sequelize');
+var db = require('../index.js');
 
 module.exports = db.define('student',
   {
@@ -31,12 +31,6 @@ module.exports = db.define('student',
     timestamps: false
   }
 );
-
-
-
-
-
-
 
 // IGNORE BELOW
 // INSERT INTO students VALUES (DEFAULT,'Alice','Chuang','alice@email.com','https://www.fillmurray.com/100/100',1),

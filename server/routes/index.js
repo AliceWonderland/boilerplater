@@ -10,9 +10,9 @@ router.use('/puppies', require('./puppies')); // matches all requests to  /api/p
 
 // handles 404s
 router.use(function (req, res, next) {
-  const err = new Error('Not found.');
-  err.status = 404;
-  next(err);
+    const err = new Error('Not found.');
+    err.status = 404;
+    next(err);
 });
 
 module.exports = router;
