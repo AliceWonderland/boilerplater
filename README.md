@@ -1,6 +1,6 @@
 # BOILERPLATE for REACT-REDUX Web Apps
-[comment]: <>  #### NPM - https://www.npmjs.com/package/react-boilerplater
-[comment]: <>  #### Github - https://github.com/AliceWonderland/react-boilerplater
+<!-- #### NPM - https://www.npmjs.com/package/react-boilerplater -->
+<!-- #### Github - https://github.com/AliceWonderland/react-boilerplater -->
 ##### By Alice Chuang 2017 (Still a work in progress)
 
 
