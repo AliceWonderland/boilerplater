@@ -27,6 +27,7 @@ Before forking this repo and cloning down to your computer, make sure Node and P
 
 #### Notes
 - To keep the server running as you build out your app use `npm run start-dev`. Nodemon will watch for changes to your files and rebuild as necessary.
+- Build out your web app using this react skeleton!
 
 #### Main Files
 - `package.json` This file lists all the scripts and required packages to install
