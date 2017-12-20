@@ -24,8 +24,6 @@ ReactDOM.render(
 
 );
 
-//
-//
 // ReactDOM.render(
 // <Provider store={store}>
 //   {/* rest of your app goes here! */}
